@@ -1,5 +1,5 @@
 import socketio
-import mysql
+import mysql.connector
 class Player:
   def __init__(self,name,id,points,banned,admin,mod):
     self.name=name
@@ -8,5 +8,5 @@ class Player:
     self.banned=banned
     self.admin=admin
     self.mod=mod
-  
+
     
