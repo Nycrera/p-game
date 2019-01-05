@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/Jn4Nyqf/cool.png" width="300" height="225"></img>
+<img src="https://i.ibb.co/Jn4Nyqf/cool.png" width="300" height="225">
 
 # P-Game (◠﹏◠)
 
