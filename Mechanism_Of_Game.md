@@ -13,21 +13,21 @@
   * Points get bigger as player count increases.
 ##Note
 Choosing random players can work like this:
-Round 1
-a b c d e f   ->  arrayofPeopleThatAreNotShootedYet={a,b,c,d,e,f}
-a shoots f
-Round 2
-a b c d e     ->  arrayofPeopleThatAreNotShootedYet={b,c,d,e}
-c shoots e but fails
-Round 3
-a b c d e     ->  arrayofPeopleThatAreNotShootedYet={b,d,e}
-d shoots e
-Round 4
-a b c d       ->  arrayofPeopleThatAreNotShootedYet={b,d}
-b shoots d
-Round 5
-a b c         ->  arrayofPeopleThatAreNotShootedYet={} so then new arrayofPeopleThatAreNotShootedYet=people that are living={a,b,c}
-a shoots c    ->  arrayofPeopleThatAreNotShootedYet={b}
-people that are alive == 2 so game over
-Final
-a and b gets points
+* Round 1
+* a b c d e f   ->  arrayofPeopleThatAreNotShootedYet={a,b,c,d,e,f}
+* a shoots f
+* Round 2
+* a b c d e     ->  arrayofPeopleThatAreNotShootedYet={b,c,d,e}
+* c shoots e but fails
+* Round 3
+* a b c d e     ->  arrayofPeopleThatAreNotShootedYet={b,d,e}
+* d shoots e
+* Round 4
+* a b c d       ->  arrayofPeopleThatAreNotShootedYet={b,d}
+* b shoots d
+* Round 5
+* a b c         ->  arrayofPeopleThatAreNotShootedYet={} so then new arrayofPeopleThatAreNotShootedYet=people that are living={a,b,c}
+* a shoots c    ->  arrayofPeopleThatAreNotShootedYet={b}
+* people that are alive == 2 so game over
+* Final
+* a and b gets points
