@@ -1,4 +1,4 @@
-#How The Game Works? (Step by Step)
+# How The Game Works? (Step by Step)
 * ## Lobby
   * There are game rooms created by different people and its allowed to create your own room.
   * All rooms have one creator and as long as creator isn't deletes room or moderator deletes room. Room stays alive. Otherwise room is deleted.
