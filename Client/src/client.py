@@ -6,9 +6,9 @@ class Game(Gtk.Window):
   self.become_server_button.connect("clicked", self.become_server)
   self.connect_confirm_button.connect("clicked", self.connect_server)
   self.add(self.become_server_button, self.connect_server_button)
-  def become_server(self):
+  def become_server(self, widget):
     #insert code to accept connections
-  def connect_server(self):
+  def connect_server(self, widget):
     #insert code to connect to ip/domain entered in textfield.
 
 window = Game()
