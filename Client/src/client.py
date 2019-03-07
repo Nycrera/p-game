@@ -5,6 +5,7 @@ class Game(Gtk.Window):
   self.connect_confirm_button = Gtk.Button(label="Connect to server")
   self.become_server_button.connect("clicked", self.become_server)
   self.connect_confirm_button.connect("clicked", self.connect_server)
+  self.add(become_server_button, connect_server_button)
   def become_server(self):
     #insert code to accept connections
   def connect_server(self):
