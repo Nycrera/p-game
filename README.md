@@ -24,8 +24,7 @@ In our server side, we have our game manager. This will have Socket.IO communica
 
 ### Client
 
-All files here will be static and there won't be any server-side executed files. These files will be served to the client by our web server over https. Files here will have extension either of ".html, .js, .css, .jpg, .png, .gif, .mp3, .ogg".
-All extensions are case insensitive.
+Our client is going to be implemented using GTK/Python so File extension ".py .jpg .png .js .html .css" are accepted as default and also "extension.txt" file does have custom extension that  should be allowed.
 
 ### Tests
 
